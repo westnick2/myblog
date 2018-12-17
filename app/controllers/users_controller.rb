@@ -1,12 +1,4 @@
-class UserController < ApplicationController
-  # def name
-  # end
-  gg=#
-  # def email
-  # end
-  #
-  # def password_digest
-  # end
+class UsersController < ApplicationController
 
   def new
     @user = User.new
